@@ -1,0 +1,8 @@
+{
+  "name": "session-8",
+  "version": "1.0.0",
+  "description": "Session 8 - Core Modules and npm",
+  "dependencies": {
+    "validator": "^13.15.35"
+  }
+}

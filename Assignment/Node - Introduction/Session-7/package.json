@@ -1,0 +1,8 @@
+{
+  "name": "session-7",
+  "version": "1.0.0",
+  "description": "Session 7 - Node.js Introduction",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  }
+}

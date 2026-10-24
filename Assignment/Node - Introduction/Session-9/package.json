@@ -1,0 +1,8 @@
+{
+  "name": "session-9",
+  "version": "1.0.0",
+  "description": "Session 9 - Yargs and Array methods",
+  "dependencies": {
+    "yargs": "^18.1.0"
+  }
+}
