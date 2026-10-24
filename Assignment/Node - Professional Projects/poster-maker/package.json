@@ -1,0 +1,17 @@
+{
+  "name": "poster-maker",
+  "version": "1.0.0",
+  "description": "Poster Maker app with static HTML interface, template library, multer uploads, and color customization",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "keywords": ["poster-maker", "canva", "multer", "upload", "express", "nodejs"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}

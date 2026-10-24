@@ -1,0 +1,16 @@
+{
+  "name": "shop-backend",
+  "version": "1.0.0",
+  "description": "E-commerce shop backend with cart, delivery charge calculation, product search, and request logger",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "keywords": ["ecommerce", "shopping-cart", "express", "nodejs"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

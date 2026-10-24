@@ -1,0 +1,16 @@
+{
+  "name": "movie-booking",
+  "version": "1.0.0",
+  "description": "BookMyShow style movie booking backend with movie routes, search, ticket booking, error middleware, and seat collision validation",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "keywords": ["movie-booking", "bookmyshow", "express", "nodejs"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

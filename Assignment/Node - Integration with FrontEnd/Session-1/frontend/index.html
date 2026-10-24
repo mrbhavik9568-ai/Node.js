@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>API Assignment</title>
+
+  <!-- Axios CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      margin: 0;
+      padding: 30px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #222;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .box {
+      background: white;
+      padding: 25px;
+      margin-bottom: 25px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      margin-top: 0;
+      color: #333;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    textarea {
+      height: 100px;
+      resize: vertical;
+    }
+
+    button {
+      background: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 18px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #0056b3;
+    }
+
+    .success {
+      color: green;
+      font-weight: bold;
+    }
+
+    .error {
+      color: red;
+      font-weight: bold;
+    }
+
+    #movieList {
+      margin-top: 15px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>JavaScript API Assignment</h1>
+
+  <div class="container">
+
+    <!-- ==========================================
+         TASK 1 + TASK 4
+    =========================================== -->
+
+    <div class="box">
+
+      <h2>Task 1 & 4 - Add Playlist</h2>
+
+      <form id="playlistForm">
+
+        <label>Playlist Name</label>
+
+        <input
+          type="text"
+          id="playlistName"
+          placeholder="Enter playlist name"
+          required
+        >
+
+        <label>Description</label>
+
+        <textarea
+          id="description"
+          placeholder="Enter playlist description"
+          required
+        ></textarea>
+
+        <button type="submit">
+          Add Playlist
+        </button>
+
+      </form>
+
+      <p id="playlistMessage"></p>
+
+    </div>
+
+
+    <!-- ==========================================
+         TASK 2 + TASK 5
+    =========================================== -->
+
+    <div class="box">
+
+      <h2>Task 2 & 5 - Trending Movies</h2>
+
+      <button id="movieButton">
+        Get Trending Shows
+      </button>
+
+      <p id="movieMessage"></p>
+
+      <ol id="movieList"></ol>
+
+    </div>
+
+
+    <!-- ==========================================
+         TASK 3
+    =========================================== -->
+
+    <div class="box">
+
+      <h2>Task 3 - CORS Login Test</h2>
+
+      <form id="loginForm">
+
+        <label>Username</label>
+
+        <input
+          type="text"
+          id="username"
+          placeholder="Enter username"
+          required
+        >
+
+        <label>Password</label>
+
+        <input
+          type="password"
+          id="password"
+          placeholder="Enter password"
+          required
+        >
+
+        <button type="submit">
+          Login
+        </button>
+
+      </form>
+
+      <p id="loginMessage"></p>
+
+      <p>
+        Open Browser Console using
+        <strong>F12 → Console</strong>
+        to see the CORS error.
+      </p>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

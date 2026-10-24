@@ -1,0 +1,17 @@
+{
+  "name": "olx-clone",
+  "version": "1.0.0",
+  "description": "OLX style classifieds backend with products API, CRUD routes, and secure multer image upload",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "keywords": ["olx", "classifieds", "products-api", "multer", "express", "nodejs"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "playlist-app",
+  "version": "1.0.0",
+  "description": "Playlist manager with Song model, input validation, and song listings",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "keywords": ["playlist", "song-model", "validation", "express", "nodejs"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

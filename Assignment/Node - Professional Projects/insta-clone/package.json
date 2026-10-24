@@ -1,0 +1,16 @@
+{
+  "name": "insta-clone",
+  "version": "1.0.0",
+  "description": "Instagram clone backend with profile, post, feed and like APIs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "keywords": ["instagram", "clone", "express", "nodejs"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

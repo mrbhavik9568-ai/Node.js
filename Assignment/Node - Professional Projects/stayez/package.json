@@ -1,0 +1,16 @@
+{
+  "name": "stayez",
+  "version": "1.0.0",
+  "description": "StayEZ vacation rental platform backend with Room model, room listings, and location search",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node test.js"
+  },
+  "keywords": ["stayez", "airbnb-clone", "vacation-rental", "room-model", "express", "nodejs"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
